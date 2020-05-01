@@ -4,7 +4,7 @@ This project is the Pytorch implementation of Neural Image Captioning 2015 paper
   <li><b>Backend :</b> Pytorch, Pytorch Vision</li>
   <li><b>Dataset :</b> MS COCO 2014 Dataset <a href = "http://cocodataset.org/#download">[Link]</a></li>
 </ul>
-# Model Architecture
+# Architecture
 <center><img src = "images/model_architecture.png" height = "400px" width = "550px"></center>
 # File Description
 <ul>
