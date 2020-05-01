@@ -4,9 +4,9 @@ This project is the Pytorch implementation of Neural Image Captioning 2015 paper
   <li><b>Backend :</b> Pytorch, Pytorch Vision</li>
   <li><b>Dataset :</b> MS COCO 2014 Dataset <a href = "http://cocodataset.org/#download">[Link]</a></li>
 </ul>
-# Architecture
+<h2> Model Architecture </h2>
 <center><img src = "images/model_architecture.png" height = "400px" width = "550px"></center>
-# File Description
+<h2> File Description </h2>
 <ul>
   <li><b>data_load.py :</b> Dataloader class and functions for data augmentation.</li>
   <li><b>model.py :</b> Model class consisting of model definitions and functions.</li>
@@ -16,8 +16,8 @@ This project is the Pytorch implementation of Neural Image Captioning 2015 paper
   <li><b>vocabulary and architecture experiments.ipynb :</b> Jupyter notebook to understand the vocabulary generation process and experiment with the CNN-RNN architecture to check whether the model.py implementation is correct or not.</li>
 
 </ul>
-# Dataset setup instructions
-Please follow these instructions to setup the MS COCO 2014 dataset for training. Remember, the training dataset is 13GB along with test data(6GB). Before downloading, ensure good bandwidth and enough storage(atleast 20 GB for dataset) on server.
+<h2> Dataset setup instructions </h2></br>
+Please follow these instructions to setup the MS COCO 2014 dataset for training. Remember, the training dataset is 13GB along with test data(6GB). Before downloading, ensure good bandwidth and enough storage(atleast 20 GB for dataset) on server.</br>
  
 1. Clone this repo: https://github.com/cocodataset/cocoapi  
 ```
